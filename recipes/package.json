@@ -1,0 +1,18 @@
+{
+  "name": "labs-gadomski-dev-recipes",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Recipes: a small Svelte 5 recipe grid used as a demo app on the Gadomski.DEV channel.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^7.3.0",
+    "svelte": "^5.56.10",
+    "vite": "^8.2.2"
+  }
+}

@@ -1,0 +1,18 @@
+/* Gadomski.DEV brand tokens, Graphite edition, with the Blueprint Blue topic accent.
+   Only the values this app uses.
+   Ratios are measured with the WCAG 2.x formula. */
+:root {
+  --gd-blueprint: #7D97FF; /* Blueprint Blue on graphite: the one accent, only for the selected or active state.
+                              4.96:1 on Graphite, 6.10:1 behind Graphite Deep text */
+  --gd-paper: #FFFFFF; /* Paper: text, 13.46:1 on Graphite, 10.60:1 on Graphite Raised */
+  --gd-steel: #9AA0A8; /* Steel: secondary text, 5.11:1 on Graphite, 6.28:1 on Graphite Deep.
+                          Only 4.02:1 on Graphite Raised, so it is not used for text on cards */
+  --gd-graphite-900: #1C1F23; /* Graphite Deep: tile images, the search box */
+  --gd-graphite-800: #2B2F35; /* Graphite: the page */
+  --gd-graphite-700: #3A3F47; /* Graphite Raised: cards */
+  --gd-graphite-600: #4A5059; /* Spotlight: hairlines, hover */
+
+  --gd-font-display: "League Spartan", "Montserrat", system-ui, sans-serif;
+  --gd-font-text: "Geist", "Inter", system-ui, sans-serif;
+  --gd-font-mono: "Geist Mono", "JetBrains Mono", ui-monospace, monospace;
+}

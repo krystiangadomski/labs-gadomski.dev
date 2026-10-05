@@ -1,0 +1,16 @@
+/* Gadomski.DEV brand tokens, Graphite edition, topic accent Circuit Green.
+   Only the values this app uses.
+   Ratios are WCAG contrast ratios, computed with the WCAG 2 formula. */
+:root {
+  --gd-circuit: #3BDB8A; /* Circuit Green, on graphite: the one accent. 7.49:1 on Graphite, 5.9:1 on Raised */
+  --gd-paper: #FFFFFF; /* Paper: text. 13.46:1 on Graphite, 10.6:1 on Raised */
+  --gd-steel: #9AA0A8; /* Steel: secondary text and down moves. 5.11:1 on Graphite, 4.02:1 on Raised, so 24 px and up there */
+  --gd-graphite-900: #1C1F23; /* Graphite Deep: inputs */
+  --gd-graphite-800: #2B2F35; /* Graphite: the page */
+  --gd-graphite-700: #3A3F47; /* Graphite Raised: cards */
+  --gd-graphite-600: #4A5059; /* Spotlight: hairlines */
+
+  --gd-font-display: "League Spartan", "Montserrat", system-ui, sans-serif;
+  --gd-font-text: "Geist", "Inter", system-ui, sans-serif;
+  --gd-font-mono: "Geist Mono", "JetBrains Mono", ui-monospace, monospace;
+}

@@ -1,0 +1,59 @@
+@import './tokens.css';
+
+@font-face {
+  font-family: 'League Spartan';
+  src: url('./assets/fonts/LeagueSpartan-Variable.ttf') format('truetype');
+  font-weight: 100 900;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'Geist';
+  src: url('./assets/fonts/Geist-Variable.ttf') format('truetype');
+  font-weight: 100 900;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'Geist Mono';
+  src: url('./assets/fonts/GeistMono-Variable.ttf') format('truetype');
+  font-weight: 100 900;
+  font-display: block;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--gd-studio);
+  color: var(--gd-ink);
+  font-family: var(--gd-font-text);
+  font-size: 22px;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+:focus-visible {
+  outline: 2px solid var(--gd-ink);
+  outline-offset: 2px;
+}
+
+.mono {
+  font-family: var(--gd-font-mono);
+  font-variant-numeric: tabular-nums;
+}

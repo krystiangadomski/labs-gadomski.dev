@@ -1,0 +1,15 @@
+/* Gadomski.DEV brand tokens, White edition.
+   Only the values this app uses. */
+:root {
+  --gd-signal: #FF5C18; /* Signal Orange: the one accent, only for the active or selected state */
+  --gd-ink: #101010; /* Ink: text */
+  --gd-paper: #FFFFFF; /* Paper: cards */
+  --gd-studio: #FAFAF8; /* Studio White: the page */
+  --gd-mist: #F1F1EE; /* Mist: hover */
+  --gd-fog: #E4E4E0; /* Fog: hairlines */
+  --gd-slate: #5A5A5A; /* Slate: secondary text, 6.9:1 on white */
+
+  --gd-font-display: "League Spartan", "Montserrat", system-ui, sans-serif;
+  --gd-font-text: "Geist", "Inter", system-ui, sans-serif;
+  --gd-font-mono: "Geist Mono", "JetBrains Mono", ui-monospace, monospace;
+}
